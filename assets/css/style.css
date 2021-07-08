@@ -1,0 +1,68 @@
+/* reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F5ECE3;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+.header{
+    background-color: #F5ECE3;
+    color: #131337;
+    text-align: center;
+    margin: 20px;   
+}
+h1{
+    font-style: bold;
+}
+body{
+    text-align: center;
+    line-height: 1.4;
+    margin: 16px 0;
+}
+#show-resuft{
+        display: inline;
+        height: 300px;
+        width: 100%;
+}
+#lac,#cell,#mnc, #input-dec{
+    font-size: 40px;
+    text-align: center;
+    width: 300px;
+}
+#input-dec {
+    margin-top: 16px;
+    
+}
+#search, #btn-dec{
+    font-size: 25px;
+    height:49px;
+    text-align: center;
+    margin-top: 16px;
+    padding: 4px;
+    border: 4px solid rgba(0, 0, 0, 0.212);
+    background-color: #006633;
+    color: #fff;
+
+}
+
+#input-cell{
+    margin-top: 16px;
+    font-size: 30px;
+    height: 100px;
+}
+ .list {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 40px;
+    
+}
+
+.footer{
+    margin-top: 50px;
+    display: block;
+}
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiÁp cẠp</title>
+    <link rel="icon" href="./assets/icon//MHred.ico" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div>
+            <img src="./assets/icon/MH.png" alt="">
+        </div>
+        <h1>GC FIND CELL - LAC</h1>
+
+        <div>
+
+            <div class="select">
+                <H2>Lựa chọn nhà mạng</H2>
+                <select name="mnc" id="mnc">
+                    <option value="04">Viettel - 04</option>
+                    <option value="02">Vinaphone - 02</option>
+                    <option value="01">Mobiphone - 01</option>
+                </select>
+                <form action="#">
+                    <div class="dec">
+                        <input type="text" id="input-dec" placeholder="F24A0A63">
+                    </div>
+                    <div>
+                        <button id="btn-dec" onclick="decHex()"> Chuyển đổi</button>
+                    </div>
+                    <div class="select">
+                        <H2>Nhập giá trị Lac</H2>
+                        <input type="text" id="lac" placeholder="12764" value="">
+
+                    </div>
+                    <div class="select">
+                        <H2>Nhập giá trị Cell</H2>
+                        <input type="text" id="cell" placeholder="2535" value="">
+                    </div>
+                    <div class="action">
+                        <input type="button" value="Tìm kiếm" onclick="submit_run()" id="search">
+                    </div>
+
+                </form>
+
+                <div class="show-resuft">
+                    <h2>Hiện thị kết quả</h2>
+
+                    <h3 id='status-gsm'>
+
+                    </h3>
+                    <p id="resuft-gsm">
+                        <a href="#" id="resuft-gsm-link" target="_blank"></a>
+                    </p>
+
+
+
+                    <h3 id='status-umts'>
+
+                    </h3>
+                    <p id="resuft-umts">
+                        <a href="#" id="resuft-umts-link" target="_blank"></a>
+                    </p>
+
+
+                    <h3 id='status-lte'>
+
+                    </h3>
+                    <p id="resuft-lte">
+                        <a href="#" id="resuft-lte-link" target="_blank"></a>
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="footer">
+                Copy Right by GiÁp cẠp
+            </div>
+            <script src="./main.js"></script>
+</body>
+
+</html>
